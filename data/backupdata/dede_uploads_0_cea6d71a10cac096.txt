@@ -1,0 +1,1 @@
+INSERT INTO `dede_uploads` VALUES('1','0','160808/1-160PR221532b.jpg','/uploads/allimg/160808/1-160PR221532b.jpg','1','1000','396','0','172758','1470666113','1');

@@ -1,0 +1,6 @@
+INSERT INTO `dede_addon18` VALUES('4','6','','','183.160.120.230','/uploads/140417/1-14041G02404134.jpg','/uploads/140417/1-14041G024532W.jpg','/uploads/140417/1-14041G02511J2.jpg');
+INSERT INTO `dede_addon18` VALUES('5','6','','','183.160.120.230','/uploads/140417/1-14041G026433M.jpg','/uploads/140417/1-14041G02F6116.jpg','/uploads/140417/1-14041G02923938.jpg');
+INSERT INTO `dede_addon18` VALUES('6','7','','','183.160.120.230','/uploads/140417/1-14041G030195U.jpg','/uploads/140417/1-14041G03045M5.jpg','/uploads/140417/1-14041G02GcU.jpg');
+INSERT INTO `dede_addon18` VALUES('7','7','','','114.96.19.82','/uploads/140417/1-14041GZ506210.jpg','','/uploads/140417/1-14041GZF3951.png');
+INSERT INTO `dede_addon18` VALUES('8','7','','','114.96.19.82','/uploads/140417/1-14041GZJ25P.jpg','','/uploads/140417/1-14041GZK5X1.png');
+INSERT INTO `dede_addon18` VALUES('9','8','','','114.96.19.82','/uploads/140417/1-14041GZR41a.jpg','','/uploads/140417/1-14041GZS31b.png');

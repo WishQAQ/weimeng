@@ -1,0 +1,75 @@
+﻿  <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/main-f5852bd947.js"></script>
+  <script type="text/javascript">top != self&&(function(){top.location = self.location;})()</script>
+  <style type="text/css">
+/* fixed */
+.fixed{
+  position: fixed;
+  width: 115px;
+  height: auto;
+  right: 15px;
+  top: 250px;
+  z-index: 999;
+}
+.fixed li{
+  list-style: none;
+  width: 115px;
+  height: auto;
+  max-height: 234px;
+}
+.fixed li img{
+  width: 100%;
+}
+.fixed-qq,.fixed-close{
+  display: inline-block;
+  width: 100%;
+  height: 31px;
+  position: absolute;
+  top: 186px;
+  left: 0;
+}
+.fixed-close{
+  height: 20px;
+  top: 0;
+}
+#icon_top{
+  display: none;
+}
+</style>
+
+<div class="fixed">
+  <ul>
+    <li>
+      <img src="{dede:global.cfg_templets_skin/}/images/fixed1.png"> 
+      <a class="fixed-qq" href="http://wpa.qq.com/msgrd?v=3&uin=455843673&Site=%E4%B8%B4%E6%BD%BC%E9%BB%84%E9%87%91%E5%9B%9E%E6%94%B6&Menu=yes" target="_black"></a>
+      <a class="fixed-close" href="javascript:;"></a>
+    </li>
+    <li id="icon_top"><a href="javascript:;"><img src="{dede:global.cfg_templets_skin/}/images/fixed2.png"></a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+  var winh = $(window).height();
+  var $backToTopEle = $("#icon_top");
+  //返回顶部
+  if ($backToTopEle.length) {
+    $backToTopEle.on("click", function() {
+      $("html,body").animate({
+        scrollTop: 0
+      }, 300);
+    })
+    var $backToTopFun = function() {
+      var st = $(document).scrollTop();
+      (st > winh) ? $backToTopEle.fadeIn(): $backToTopEle.fadeOut();
+      if (!window.XMLHttpRequest) {
+        $backToTopEle.css("top", st + winh - 166);
+      }
+    };
+    $(window).bind("scroll", $backToTopFun);
+    $backToTopFun();
+
+    $(".fixed-close").click(function(){
+      $(".fixed").hide();
+    });
+  }
+</script>
+
+<script src="{dede:global.cfg_templets_skin/}/style/bw-send-411.4.5.js"></script><script src="{dede:global.cfg_templets_skin/}/style/bw-send-411.4.5.js"></script><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/saved_resource" async=""></script><script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/saved_resource" async=""></script>
